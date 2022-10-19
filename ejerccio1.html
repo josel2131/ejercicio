@@ -1,37 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="css/style1.css"/>
+    
+</head><br/><br/><br/>
+<body style="background-color:rgb(20, 143, 119) ;font-family: sans-serif;">
     <!--el header se va colocar el logo titulo-->
+    
 
     <header style="background-color: rgb(17, 175, 162);">
+       
         <center>
-            <h1>titulo</h1>
+
+            <a href="https://www.animefenix.com/" target="_blank"><img src="img/Animes.jpg" /></a>
+            <h1>BIBLIOTECA GUZMAN</h1>
+            
+            <nav >
+                <ul>
+                    <div class="">
+                    
+                        <a href="https://www.animefenix.com/grappler-baki-tv" target="_blank">
+                        <img src="img/baki.jpg" alt="logo baki" />BAKI  GRAPPER </a> 
+                        <a style="background-color: rgb(255, 195, 0);"href="https://www.animefenix.com/grappler-baki-tv" target="_blank" ></a>
+                        
+                        
+                    
+                    
+
+                    <a href=https://www.animefenix.com/peter-grill-to-kenja-no-jikan target="_blank"><img src="img/peter_ch02-768x691.png" alt="logo peter-grill-to-kenja-no-jikan" /> </a> 
+                    <a style="background-color: rgb(255, 195, 0);"href="https://www.animefenix.com/peter-grill-to-kenja-no-jikan" target="_self">peter grill to kenja no jikan</a>
+                    
+                    <a href=https://www.animefenix.com/isekai-meikyuu-de-harem-wo target="_blank"><img src="img/isekai-meikyuu-de-harem-wo.jpg" alt="logo isekai-meikyuu-de-harem-wo" /> </a> 
+                    <a style="background-color: rgb(255, 195, 0);"href="https://www.animefenix.com/isekai-meikyuu-de-harem-wo" target="_parent">Isekai meikyuu de harem wo</a>
+                    
+                    <a style="background-color: rgb(255, 195, 0);"href="mailto:josel2131@hotmail.com" target="_parent">correo</a>
+                     </div>
+                </ul>
+                   
+            </nav>
         </center>
+        
         
     </header>
-    <!--formulario-->
-    <main>
-        <center>
-            <h1>EJERCICIO DE PRUEBA 1</h1>
 
-        </center>
-        
-    </main>
-    <!--informacion del proyecto--> 
-    <footer>
+    <!--formulario-->
+    <main >
+        <br /><br />
         <center>
-            <h5>EJERCICIO DE PRUEBA 1</h5>
+        <form id="comentanos">
+         <label for="nombre">Ingresar nombre:</label>
+         <input type="text" placeholder="Ingresar nombre" id="nombre" size="40" minlength="3" required="true" />
+         <br /><br />
+         <label for="numero">Ingresar numero de documento:</label>
+         <input type="number" placeholder="numero de documento" id="numero" size="40" required />
+         <br /><br />
+         <label for="email">Ingresar correo:</label>
+         <input type="email" placeholder="correo" id="email" size="40" required="true" />
+         <br /><br />
+         <label for="año">Ingresar año:</label>
+         <input type="number" placeholder="año" id="año" size="40" required ="true" 
+         min=1900 max=2022 />
+
+         <br /><br />
+         <label for="clave">Ingresar clave:</label>
+         <input type="password" placeholder="ingresar clave" id="clave" required ="true" />
+
+         <br /><br />
+         <label for="fecha">Ingresar fecha:</label>
+         <input type="date" placeholder="ingresar " id="fecha" required ="true" />
+        
+
+         <br /><br />
+         <label for="documento">ingresar tipo de documento</label>
+         <select id="tipo de documento">
+            <option value="CC" selected>cedula de corrupcion</option>
+            <option value="TI">tarjeta de promiscuidad</option>
+            <option value="CE">Cedula de alienigena</option>
+         </select>
+         <br /><br /> <br /><br />
+         
+         <label for="escribe" > escribe lo que te de la gana</label>
+         <textarea id="escribe" autocomplete="on" cols="40" 
+         rows="4"  minlength="15" required >
+         escribe lo que te de la gana
+
+         </textarea>
+         <br/>
+         <br/>
+         <label for="genero">INGRESAR GENERO:   </label>
+         <br/>
+         <label>machulino</label><input type="radio" name="genero" />
+         <label>femenino</label><input type="radio" name="genero" />
+         <label>no se que soy</label><input type="radio" name="genero" />
+         <label>soy una papa en cuerpo de yuca</label><input type="radio" name="genero" />
+         <br/><br/>
+         <label>MATERIAS:   </label>
+         <br/>
+         <label>emprendimiento</label><input type="checkbox" name="materias" />
+         <label>pavimentacion aerea</label><input type="checkbox" name="materias" />
+         <label>sexologia</label><input type="checkbox" name="materias" />
+
+         <input type="submit" id="boton" size="100" value="Guardar" />
+         <br /><br />
+
+         
+         
+        </form>
+        <table border="1" align="center" style="background-color: rgb(183, 222, 170);">
+            <tr>
+                <td>materia/dia</td>
+                <td>Lunes</td>
+                <td>Martes</td>
+                <td>Miercoles</td>
+                <td>Jueves</td>
+                <td>Viernes</td>
+                <td>Sabado</td>
+                <td>Domingo</td>
+
+            </tr>
+            <tr>
+                <td><a href="https://www.animefenix.com/grappler-baki-tv" target="_blank">BAKI  GRAPPER</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                
+            </tr>
+            <tr>
+                <td><a href="https://www.animefenix.com/peter-grill-to-kenja-no-jikan" target="_self">peter grill to kenja no jikan</a></td>
+                <td></td>
+                <td><A></a></td>
+                <td><a></a></td>
+                <td><A></A></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.animefenix.com/urusei-yatsura-2022" target="_self">URUSEI YATSURA</a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.animefenix.com/isekai-meikyuu-de-harem-wo" target="_parent"></a></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+                
+                
+
+         </table>
+    
+    </center>
+        
+        <center>
+        
+            <p> <h3> small businesses use social media as a marketing tool, and it’s easy to see why. 
+                <a href="https://bienpensado.com/que-es-social-media-y-su-diferencia-con-las-redes-sociales/" target="_blank">Social media
+                </a> platforms like Meta, Twitter, Pinterest, and Instagram have billions of users combined. 
+                Having a cohesive social media presence allows small businesses to speak to customers where they’re at. 
+                However, with so many prominent platforms out there, managing
+                 multiple social accounts can be an absolute nightmare.
+                  After all, business owners would have to
+                   find the time and energy to log into multiple 
+                   social media accounts, write a post for each,
+                    and schedule them as needed throughout the day. 
+                    This is simply not feasible for many small 
+                    businesses that operate with a handful of employees.
+                     With that in mind, many small businesses turn to social
+                      media management platforms that let them create a comprehensive social media strategy they can manage all in one place.</h3></p>
+
+ 
         </center>
+
+        <!--informacion del proyecto-->
+    </main>
+     
+    <footer>
+        
+            <P>contactos de las redes
+                facebook y otro monton de jodas
+            </P>
+            <!--contactos redes-->
+        
 
     </footer>
-    <P>PARRAFO</P>
-    <center>
+    
+   
 
         
 </body>
